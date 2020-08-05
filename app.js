@@ -122,7 +122,6 @@ function loop() {
         ctx.fillText("press spacebar", c.width / 2, c.height / 2+30);
     }
 
-    console.log(speed);
     requestAnimationFrame(loop);
 }
 
